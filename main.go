@@ -130,7 +130,7 @@ func main() {
 			&cli.Uint64Flag{
 				Name:        "backfilling-batch-size",
 				Usage:       "The batch size for the backfilling",
-				Value:       10000,
+				Value:       1000,
 				EnvVars:     []string{"BACKFILLING_BATCH_SIZE"},
 				Destination: &cfg.backfillingBatchSize,
 			},
